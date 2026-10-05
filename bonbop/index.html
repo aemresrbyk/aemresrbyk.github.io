@@ -1,0 +1,38 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bonbop: Sweet Merge Drop</title><meta name="description" content="Drop cute sweets, match twins and merge them into bigger treats. Offline fun."><link rel="icon" href="/assets/favicon.png">
+<style>
+@font-face{font-family:"Josefin Sans";font-weight:700;font-style:normal;src:url(/fonts/josefin-sans-latin-700-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Bree Serif";font-weight:400;font-style:normal;src:url(/fonts/bree-serif-latin-400-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Fredoka";font-weight:700;font-style:normal;src:url(/fonts/fredoka-latin-700-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Zen Antique";font-weight:400;font-style:normal;src:url(/fonts/zen-antique-latin-400-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Cormorant Garamond";font-weight:700;font-style:normal;src:url(/fonts/cormorant-garamond-latin-700-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Kurale";font-weight:400;font-style:normal;src:url(/fonts/kurale-latin-400-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Caveat";font-weight:700;font-style:normal;src:url(/fonts/caveat-latin-700-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Vollkorn SC";font-weight:900;font-style:normal;src:url(/fonts/vollkorn-sc-latin-900-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Yeseva One";font-weight:400;font-style:normal;src:url(/fonts/yeseva-one-latin-400-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Alegreya";font-weight:800;font-style:italic;src:url(/fonts/alegreya-latin-800-italic.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Fredoka";font-weight:700;src:url(/fonts/fredoka-latin-700-normal.woff2) format("woff2");font-display:swap}
+:root{--bg:#FBF6EE;--ink:#2A2420;--mute:#6E625A;--line:#E6DCCF;--card:#FFFFFF;--link:#B4532A}
+@media (prefers-color-scheme:dark){:root{--bg:#191614;--ink:#F3ECE4;--mute:#B3A79C;--line:#3A332E;--card:#231F1C;--link:#F2A07B}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--link)}.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+header.top{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+header.top a.brand{font-family:Fredoka,system-ui;font-weight:700;font-size:22px;color:var(--ink);text-decoration:none;letter-spacing:.01em}
+header.top nav a{margin-inline-start:18px;color:var(--mute);text-decoration:none;font-weight:600;font-size:15px}
+footer{border-top:1px solid var(--line);margin-top:64px;padding:26px 0 40px;color:var(--mute);font-size:14px}
+footer a{color:var(--mute);margin-inline-end:16px}
+.doc{max-width:760px}.doc h1{font-family:Fredoka,system-ui;font-size:36px;line-height:1.15;margin:18px 0 6px}
+.doc h2{font-size:20px;margin:34px 0 8px}.doc p,.doc li{color:var(--ink)}.doc .meta{color:var(--mute);font-size:14px}
+.doc table{border-collapse:collapse;width:100%;font-size:14px;margin:10px 0}.doc td,.doc th{border:1px solid var(--line);padding:8px 10px;text-align:start;vertical-align:top}
+.lang{display:inline-flex;gap:6px;margin:10px 0 0}.lang a{padding:4px 12px;border:1px solid var(--line);border-radius:99px;text-decoration:none;color:var(--ink);font-size:14px}.lang a.on{background:var(--ink);color:var(--bg)}
+body{background:#FFE8C2;background-attachment:fixed;color:#5A3522}header.top a.brand,header.top nav a{color:#5A3522}
+.gh{display:flex;gap:22px;align-items:center;padding:20px 0 10px;flex-wrap:wrap}.gh img{width:120px;height:120px;border-radius:28px;box-shadow:0 8px 22px rgba(0,0,0,.22)}
+.gh h1{font-family:'Fredoka';font-weight:700;font-style:normal;font-size:clamp(40px,7vw,64px);line-height:1;margin:0;}
+.gh p{margin:8px 0 0;font-weight:600;opacity:.85;font-size:18px}.stores{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 8px}
+.st{background:#FF8FA3;color:#5A3522;padding:12px 18px;border-radius:14px;font-weight:700;text-decoration:none}
+.shots{display:flex;gap:14px;overflow-x:auto;padding:18px 2px 22px;scroll-snap-type:x mandatory}.shots img{height:420px;width:auto;border-radius:22px;scroll-snap-align:start;box-shadow:0 10px 26px rgba(0,0,0,.18);flex:none}
+.about{background:#FFF6E8;color:#5A3522;border-radius:26px;padding:26px 28px;max-width:760px}.about h3{font-family:'Fredoka';font-weight:700;margin:22px 0 6px;font-size:20px}.about ul{padding-inline-start:20px;margin:0}
+footer,footer a{color:#5A3522;opacity:.85;border-color:rgba(0,0,0,.12)}
+</style></head><body><div class="wrap"><header class="top"><a class="brand" href="/">Kitefold Games</a><nav><a href="/support.html">Support</a><a href="/privacy.html">Privacy</a></nav></header></div><main class="wrap"><section class="gh"><img src="/assets/bonbop.png" alt="Bonbop icon"><div><h1>Bonbop</h1><p>Drop, hop &amp; merge cute sweets</p></div></section>
+<div class="stores"><a class="st" href="https://play.google.com/store/apps/details?id=com.kitefold.bonbop" rel="noopener">Google Play</a><a class="st" href="https://galaxystore.samsung.com/detail/com.kitefold.bonbop" rel="noopener">Galaxy Store</a><a class="st" href="https://global.app.mi.com/details?id=com.kitefold.bonbop" rel="noopener">Xiaomi GetApps</a></div><div class="shots"><img src="shot1.jpg" alt="Drop &amp; merge cute sweets" width="432" height="768" loading="lazy"><img src="shot2.jpg" alt="Twins hop together" width="432" height="768" loading="lazy"><img src="shot3.jpg" alt="A new sweet shop every 20 levels" width="432" height="768" loading="lazy"><img src="shot4.jpg" alt="Cute, cozy &amp; offline" width="432" height="768" loading="lazy"></div><section class="about"><p>Drop a sweet. Match its twin. Watch them hop together and merge!</p><p>Bonbop is a cozy drop-and-merge puzzle full of smiling sweets. Aim, let go and watch your sweet tumble into the jar. When two identical sweets touch, they hop into each other and pop into the next, bigger treat. Make the goal sweet to win the level, and keep the pile below the line.</p><h3>What&#x27;s inside</h3><ul><li>Aim and release: easy to learn, hard to put down</li><li>11 sweets to grow, each with its own happy face</li><li>Bouncy hop-merge animations and chain reactions</li><li>A rainbow wildcard sweet that matches anything</li><li>A new sweet shop every 20 levels: Bakery, Soda Pop, Berry, Matcha, Caramel and Midnight</li><li>A boss level at the end of every chapter</li><li>Cheerful sounds, gentle music and up to three stars on every level</li></ul><h3>Fair by design</h3><ul><li>No ads at all in the first 25 levels</li><li>After that, an occasional ad between levels, never during play</li><li>Watching a video to continue or to skip a hard level is always optional</li><li>One optional purchase removes the between-level ads for good</li><li>No currencies, no loot boxes, no subscriptions</li></ul><h3>Play anywhere</h3><ul><li>Works offline, no account needed</li><li>Available in 14 languages</li></ul></section></main><div class="wrap"><footer><a href="/">Games</a><a href="/support.html">Support</a><a href="/privacy.html">Privacy Policy</a><a href="/privacy-tr.html">Gizlilik</a><br>© 2026 Kitefold Games</footer></div></body></html>

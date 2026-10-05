@@ -1,0 +1,58 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kitefold Games</title><meta name="description" content="Small, calm single-player games: classic puzzles and originals. Fair ads, one optional purchase, fully offline."><link rel="icon" href="/assets/favicon.png">
+<style>
+@font-face{font-family:"Josefin Sans";font-weight:700;font-style:normal;src:url(/fonts/josefin-sans-latin-700-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Bree Serif";font-weight:400;font-style:normal;src:url(/fonts/bree-serif-latin-400-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Fredoka";font-weight:700;font-style:normal;src:url(/fonts/fredoka-latin-700-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Zen Antique";font-weight:400;font-style:normal;src:url(/fonts/zen-antique-latin-400-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Cormorant Garamond";font-weight:700;font-style:normal;src:url(/fonts/cormorant-garamond-latin-700-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Kurale";font-weight:400;font-style:normal;src:url(/fonts/kurale-latin-400-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Caveat";font-weight:700;font-style:normal;src:url(/fonts/caveat-latin-700-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Vollkorn SC";font-weight:900;font-style:normal;src:url(/fonts/vollkorn-sc-latin-900-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Yeseva One";font-weight:400;font-style:normal;src:url(/fonts/yeseva-one-latin-400-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Alegreya";font-weight:800;font-style:italic;src:url(/fonts/alegreya-latin-800-italic.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Fredoka";font-weight:700;src:url(/fonts/fredoka-latin-700-normal.woff2) format("woff2");font-display:swap}
+:root{--bg:#FBF6EE;--ink:#2A2420;--mute:#6E625A;--line:#E6DCCF;--card:#FFFFFF;--link:#B4532A}
+@media (prefers-color-scheme:dark){:root{--bg:#191614;--ink:#F3ECE4;--mute:#B3A79C;--line:#3A332E;--card:#231F1C;--link:#F2A07B}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--link)}.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+header.top{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+header.top a.brand{font-family:Fredoka,system-ui;font-weight:700;font-size:22px;color:var(--ink);text-decoration:none;letter-spacing:.01em}
+header.top nav a{margin-inline-start:18px;color:var(--mute);text-decoration:none;font-weight:600;font-size:15px}
+footer{border-top:1px solid var(--line);margin-top:64px;padding:26px 0 40px;color:var(--mute);font-size:14px}
+footer a{color:var(--mute);margin-inline-end:16px}
+.doc{max-width:760px}.doc h1{font-family:Fredoka,system-ui;font-size:36px;line-height:1.15;margin:18px 0 6px}
+.doc h2{font-size:20px;margin:34px 0 8px}.doc p,.doc li{color:var(--ink)}.doc .meta{color:var(--mute);font-size:14px}
+.doc table{border-collapse:collapse;width:100%;font-size:14px;margin:10px 0}.doc td,.doc th{border:1px solid var(--line);padding:8px 10px;text-align:start;vertical-align:top}
+.lang{display:inline-flex;gap:6px;margin:10px 0 0}.lang a{padding:4px 12px;border:1px solid var(--line);border-radius:99px;text-decoration:none;color:var(--ink);font-size:14px}.lang a.on{background:var(--ink);color:var(--bg)}
+.hero{padding:36px 0 26px}.hero h1{font-family:Fredoka,system-ui;font-size:clamp(34px,6vw,54px);line-height:1.05;margin:0 0 12px}.hero p{color:var(--mute);font-size:18px;max-width:600px;margin:0}
+.games{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:26px}
+.g{display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:26px;border-radius:26px;background:var(--gbg);color:var(--gink);text-decoration:none;min-height:300px;box-shadow:0 10px 30px rgba(0,0,0,.08);transition:transform .2s}
+.g:hover{transform:translateY(-3px)}.g img{border-radius:22px;box-shadow:0 6px 16px rgba(0,0,0,.18);width:88px;height:88px}.g h2{font-size:30px;margin:14px 0 0}.g p{margin:0;opacity:.85;font-weight:600}
+.g .more{margin-top:auto;font-weight:700;color:var(--gacc)}
+.pledge{margin-top:40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}.pledge div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}.pledge b{display:block;margin-bottom:4px}.pledge span{color:var(--mute);font-size:14px}
+</style></head><body><div class="wrap"><header class="top"><a class="brand" href="/">Kitefold Games</a><nav><a href="/support.html">Support</a><a href="/privacy.html">Privacy</a></nav></header></div><main class="wrap"><section class="hero"><h1>Small games,<br>made with care.</h1>
+<p>Calm single-player games, from timeless classics to brand-new ideas. Pick one up in seconds and play anywhere, even offline.</p></section><section class="games"><a class="g" href="/papersun/" style="--gbg:linear-gradient(180deg,#7FA7D6,#F6C6A3);--gink:#1F2A44;--gacc:#E76F51">
+<img src="/assets/papersun.png" alt="" width="96" height="96"><h2 style="font-family:'Josefin Sans';font-weight:700;font-style:normal;text-transform:uppercase;letter-spacing:.06em">Papersun</h2>
+<p>One-Tap Orbit Jump</p><span class="more">See the game →</span></a><a class="g" href="/grainfit/" style="--gbg:radial-gradient(120% 90% at 50% 20%,#3C7263,#2F5D50 60%,#1F3F36);--gink:#FBEEDB;--gacc:#F6CB5B">
+<img src="/assets/grainfit.png" alt="" width="96" height="96"><h2 style="font-family:'Bree Serif';font-weight:400;font-style:normal;">Grainfit</h2>
+<p>Wood Block Puzzle</p><span class="more">See the game →</span></a><a class="g" href="/bonbop/" style="--gbg:#FFE8C2;--gink:#5A3522;--gacc:#FF6F91">
+<img src="/assets/bonbop.png" alt="" width="96" height="96"><h2 style="font-family:'Fredoka';font-weight:700;font-style:normal;">Bonbop</h2>
+<p>Sweet Merge Drop</p><span class="more">See the game →</span></a><a class="g" href="/sudoku/" style="--gbg:radial-gradient(120% 90% at 50% 15%,#FBF7EE,#F3ECDF 55%,#E6DAC4);--gink:#1D1916;--gacc:#C23B2E">
+<img src="/assets/sudoku.png" alt="" width="96" height="96"><h2 style="font-family:'Zen Antique';font-weight:400;font-style:normal;">Sudoku</h2>
+<p>Ink &amp; Paper</p><span class="more">See the game →</span></a><a class="g" href="/chess/" style="--gbg:radial-gradient(120% 90% at 70% 10%,#343C78,#151C4C 55%,#070B24);--gink:#F3EEDF;--gacc:#EBC97C">
+<img src="/assets/chess.png" alt="" width="96" height="96"><h2 style="font-family:'Cormorant Garamond';font-weight:700;font-style:normal;">Chess</h2>
+<p>Moonlit Puzzles &amp; Bots</p><span class="more">See the game →</span></a><a class="g" href="/mazechase/" style="--gbg:radial-gradient(120% 90% at 50% 15%,#C9DDA0,#A7C57B 55%,#86AA5E);--gink:#2F4A2A;--gacc:#C8414B">
+<img src="/assets/mazechase.png" alt="" width="96" height="96"><h2 style="font-family:'Kurale';font-weight:400;font-style:normal;">Maze Chase</h2>
+<p>Hedgehog Dash</p><span class="more">See the game →</span></a><a class="g" href="/seabattle/" style="--gbg:linear-gradient(#9DBCE455 1px,transparent 1px) 0 0/17px 17px,linear-gradient(90deg,#9DBCE455 1px,transparent 1px) 0 0/17px 17px,#F7F3E8;--gink:#23419A;--gacc:#D93A3F">
+<img src="/assets/seabattle.png" alt="" width="96" height="96"><h2 style="font-family:'Caveat';font-weight:700;font-style:normal;">Sea Battle</h2>
+<p>Notebook Fleet</p><span class="more">See the game →</span></a><a class="g" href="/minesweeper/" style="--gbg:linear-gradient(180deg,#F9E6BE 0%,#EDC48C 60%,#E2B67C 100%);--gink:#3B2618;--gacc:#B9502D">
+<img src="/assets/minesweeper.png" alt="" width="96" height="96"><h2 style="font-family:'Vollkorn SC';font-weight:900;font-style:normal;">Minesweeper</h2>
+<p>Ancient Dig</p><span class="more">See the game →</span></a><a class="g" href="/stitchway/" style="--gbg:radial-gradient(120% 90% at 50% 20%,#C3D0AF,#8EA17B 60%,#6F8360);--gink:#26331D;--gacc:#C94C6D">
+<img src="/assets/stitchway.png" alt="" width="96" height="96"><h2 style="font-family:'Yeseva One';font-weight:400;font-style:normal;">Stitchway</h2>
+<p>Untangle Embroidery</p><span class="more">See the game →</span></a><a class="g" href="/rillbloom/" style="--gbg:linear-gradient(180deg,#CFE2CF,#F5EFE0 55%,#E4EFD6);--gink:#38483B;--gacc:#3B84AC">
+<img src="/assets/rillbloom.png" alt="" width="96" height="96"><h2 style="font-family:'Alegreya';font-weight:800;font-style:italic;">Rillbloom</h2>
+<p>One-Line Valleys</p><span class="more">See the game →</span></a></section>
+<section class="pledge"><div><b>No ads for 25 levels</b><span>Each game starts ad-free, and ads never interrupt play.</span></div><div><b>Always optional</b><span>Watching a video to continue or skip is your choice.</span></div>
+<div><b>One purchase, that's it</b><span>A single optional "No Ads". No currencies, no loot boxes, no subscriptions.</span></div><div><b>14 languages</b><span>Offline play, no account needed.</span></div></section></main><div class="wrap"><footer><a href="/">Games</a><a href="/support.html">Support</a><a href="/privacy.html">Privacy Policy</a><a href="/privacy-tr.html">Gizlilik</a><br>© 2026 Kitefold Games</footer></div></body></html>
