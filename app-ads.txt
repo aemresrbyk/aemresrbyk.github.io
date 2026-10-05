@@ -1,0 +1,3 @@
+# app-ads.txt for Kitefold Games. Must be served from the root of the developer website listed in the stores.
+# Replace the publisher ID with yours (AdMob > Settings > Account information), and add a line for every mediation network you enable.
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
