@@ -4,7 +4,7 @@
 <p align="center"><b>Small games for slow evenings.</b><br>Calm single-player games made by one person in İzmir. Offline, no account, one optional purchase.</p>
 <p align="center"><a href="https://kitefoldgames.com"><b>kitefoldgames.com</b></a> · <a href="https://kitefoldgames.com/support.html">Support</a> · <a href="https://kitefoldgames.com/privacy.html">Privacy</a></p>
 
-> **Latest update (2.0, 2026-10-08):** New evening theme: dusk sky, lit rooftops and a paper kite that sways on its string.
+> **Latest update (2.1, 2026-10-08):** Company email addresses: support@, privacy@ and hello@kitefoldgames.com, shown on the support and privacy pages and in the footer.
 
 ## The shelf
 
@@ -34,6 +34,9 @@ This repository is the studio website, served by GitHub Pages at [kitefoldgames.
 - `app-ads.txt` at the root authorises the AdMob account used in the games
 
 ## Changelog
+
+### 2.1 · 2026-10-08
+- Company email addresses: support@, privacy@ and hello@kitefoldgames.com, shown on the support and privacy pages and in the footer
 
 ### 2.0 · 2026-10-08
 - New evening theme: dusk sky, lit rooftops and a paper kite that sways on its string
