@@ -1,32 +1,23 @@
-<p align="center"><a href="https://kitefoldgames.com"><img src="assets/readme-banner.jpg" alt="Kitefold Games website: a paper kite over lit rooftops at dusk" width="100%"></a></p>
+<p align="center"><a href="https://kitefoldgames.com"><img src="assets/readme-banner.jpg" alt="Kitefold Games website: a reading corner with an armchair, a bookshelf and a sleeping cat" width="100%"></a></p>
 
 <h1 align="center">Kitefold Games</h1>
-<p align="center"><b>Small games for slow evenings.</b><br>Calm single-player games made by one person in İzmir. Offline, no account, one optional purchase.</p>
+<p align="center"><b>Small, calm games.</b><br>Puzzles to relax with. Offline, no account, one optional purchase.</p>
 <p align="center"><a href="https://kitefoldgames.com"><b>kitefoldgames.com</b></a> · <a href="https://kitefoldgames.com/support.html">Support</a> · <a href="https://kitefoldgames.com/privacy.html">Privacy</a></p>
 
-> **Latest update (2.2, 2026-10-10):** Grainfit: Wood Block Puzzle joins the shelf with its own page, App Store button, gameplay video and six screenshots.
+> **Latest update (2.3, 2026-10-10):** New, brighter look: a reading corner with a window, a bookshelf, an armchair and a sleeping cat you can pet.
 
-## The shelf
+## Our games
 
 | | Game | | Status |
 |---|---|---|---|
 | <img src="assets/sudoku.png" width="40"> | **[Sudoku: Ink & Paper](https://kitefoldgames.com/sudoku/)** | Classic logic puzzles in ink | Out on iPhone in October 2026 · [App Store](https://apps.apple.com/app/id6819167276) |
 | <img src="assets/grainfit.png" width="40"> | **[Grainfit: Wood Block Puzzle](https://kitefoldgames.com/grainfit/)** | Rotate, fit & clear the board | Out on iPhone in October 2026 · [App Store](https://apps.apple.com/app/id6820693702) |
 
-New games are added to the shelf on their release day.
-
-## House rules
-
-Every game follows the same rules:
-
-- **Ads wait their turn.** The first 25 levels have no ads, and an ad never interrupts a puzzle.
-- **One purchase, then done.** A single optional "No Ads". No coins, loot boxes or subscriptions.
-- **Plays anywhere.** Works offline, nothing to sign up for.
-- **Speaks your language.** 14 languages in every game.
+Stores: App Store (iPhone); coming soon to Google Play, Galaxy Store, Huawei AppGallery and Xiaomi GetApps. New games are added on their release day.
 
 ## In your language
 
-The site speaks the same 14 languages as the games. Visitors are sent to their own language on their first visit, and can switch from the globe menu at any time.
+Every game, and this site, is available in 14 languages. Visitors are sent to their own language on their first visit and can switch from the globe menu at any time.
 
 [English](https://kitefoldgames.com/) · [Türkçe](https://kitefoldgames.com/tr/) · [Español](https://kitefoldgames.com/es/) · [Português (Brasil)](https://kitefoldgames.com/pt-br/) · [Português (Portugal)](https://kitefoldgames.com/pt-pt/) · [Français](https://kitefoldgames.com/fr/) · [Deutsch](https://kitefoldgames.com/de/) · [Italiano](https://kitefoldgames.com/it/) · [Polski](https://kitefoldgames.com/pl/) · [Русский](https://kitefoldgames.com/ru/) · [العربية](https://kitefoldgames.com/ar/) · [简体中文](https://kitefoldgames.com/zh/) · [日本語](https://kitefoldgames.com/ja/) · [한국어](https://kitefoldgames.com/ko/)
 
@@ -35,13 +26,20 @@ The site speaks the same 14 languages as the games. Visitors are sent to their o
 This repository is the studio website, served by GitHub Pages at [kitefoldgames.com](https://kitefoldgames.com).
 
 - Plain static HTML and CSS, no framework and no trackers or analytics
+- The home page picture is drawn in SVG: a reading corner with a window, a bookshelf, an armchair and a sleeping cat. The window follows the visitor's time of day, and tapping the cat wakes it up
 - English lives at the root; every other language has its own folder (`/tr/`, `/de/`, `/ja/` ...) with the home page, a page per game and the support page
 - Fonts are hosted on the site itself
-- A soft lo-fi track plays in the background as you browse. Browsers only allow sound after the first tap or click, so it starts then, and it keeps its place from page to page. The track is generated in code (piano chords, soft drums, rain and vinyl crackle), so it's free of third-party licenses
+- A soft lo-fi track plays in the background. Browsers only allow sound after the first tap or click, so it starts then, and it keeps its place from page to page. The track is generated in code, so it's free of third-party licenses
 - Only released games are shown
 - `app-ads.txt` at the root authorises the AdMob account used in the games
 
 ## Changelog
+
+### 2.3 · 2026-10-10
+- New, brighter look: a reading corner with a window, a bookshelf, an armchair and a sleeping cat you can pet
+- The window follows your time of day, and the lamp switches on in the evening
+- Games now stand on wooden shelves, with shorter and simpler texts
+- Store list adds Google Play, Galaxy Store, Huawei AppGallery and Xiaomi GetApps as coming soon
 
 ### 2.2 · 2026-10-10
 - Grainfit: Wood Block Puzzle joins the shelf with its own page, App Store button, gameplay video and six screenshots
