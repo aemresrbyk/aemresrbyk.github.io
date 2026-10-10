@@ -1,10 +1,10 @@
 <p align="center"><a href="https://kitefoldgames.com"><img src="assets/readme-banner.jpg" alt="Kitefold Games website: a reading corner with an armchair, a bookshelf and a sleeping cat" width="100%"></a></p>
 
 <h1 align="center">Kitefold Games</h1>
-<p align="center"><b>Small, calm games.</b><br>Puzzles to relax with. Offline, no account, one optional purchase.</p>
+<p align="center"><b>We make small puzzle games.</b><br>No timers, no rush, and they work offline.</p>
 <p align="center"><a href="https://kitefoldgames.com"><b>kitefoldgames.com</b></a> · <a href="https://kitefoldgames.com/support.html">Support</a> · <a href="https://kitefoldgames.com/privacy.html">Privacy</a></p>
 
-> **Latest update (2.3, 2026-10-10):** New, brighter look: a reading corner with a window, a bookshelf, an armchair and a sleeping cat you can pet.
+> **Latest update (2.4, 2026-10-10):** Rewrote the site texts in all 14 languages so they read more naturally.
 
 ## Our games
 
@@ -34,6 +34,9 @@ This repository is the studio website, served by GitHub Pages at [kitefoldgames.
 - `app-ads.txt` at the root authorises the AdMob account used in the games
 
 ## Changelog
+
+### 2.4 · 2026-10-10
+- Rewrote the site texts in all 14 languages so they read more naturally
 
 ### 2.3 · 2026-10-10
 - New, brighter look: a reading corner with a window, a bookshelf, an armchair and a sleeping cat you can pet
