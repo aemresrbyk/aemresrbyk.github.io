@@ -4,7 +4,7 @@
 <p align="center"><b>We make small puzzle games.</b><br>No timers, no rush, and they work offline.</p>
 <p align="center"><a href="https://kitefoldgames.com"><b>kitefoldgames.com</b></a> · <a href="https://kitefoldgames.com/support.html">Support</a> · <a href="https://kitefoldgames.com/privacy.html">Privacy</a></p>
 
-> **Latest update (2.4, 2026-10-10):** Rewrote the site texts in all 14 languages so they read more naturally.
+> **Latest update (2.5, 2026-10-22):** Two new games coming soon to iPhone: Sunnap, a cosy cat-and-sunlight puzzle, and Inkfold, a paper-folding ink puzzle.
 
 ## Our games
 
@@ -12,6 +12,8 @@
 |---|---|---|---|
 | <img src="assets/sudoku.png" width="40"> | **[Sudoku: Ink & Paper](https://kitefoldgames.com/sudoku/)** | Classic logic puzzles in ink | Out on iPhone in October 2026 · [App Store](https://apps.apple.com/app/id6819167276) |
 | <img src="assets/grainfit.png" width="40"> | **[Grainfit: Wood Block Puzzle](https://kitefoldgames.com/grainfit/)** | Rotate, fit & clear the board | Out on iPhone in October 2026 · [App Store](https://apps.apple.com/app/id6820693702) |
+| <img src="assets/sunnap.png" width="40"> | **[Sunnap: Cozy Cat Light Puzzle](https://kitefoldgames.com/sunnap/)** | Open shutters, warm the cats | Coming soon to iPhone  |
+| <img src="assets/inkfold.png" width="40"> | **[Inkfold: Paper Ink Puzzle](https://kitefoldgames.com/inkfold/)** | Fold paper, print the pattern | Coming soon to iPhone  |
 
 Stores: App Store (iPhone); coming soon to Google Play, Galaxy Store, Huawei AppGallery and Xiaomi GetApps. New games are added on their release day.
 
@@ -34,6 +36,9 @@ This repository is the studio website, served by GitHub Pages at [kitefoldgames.
 - `app-ads.txt` at the root authorises the AdMob account used in the games
 
 ## Changelog
+
+### 2.5 · 2026-10-22
+- Two new games coming soon to iPhone: Sunnap, a cosy cat-and-sunlight puzzle, and Inkfold, a paper-folding ink puzzle
 
 ### 2.4 · 2026-10-10
 - Rewrote the site texts in all 14 languages so they read more naturally
