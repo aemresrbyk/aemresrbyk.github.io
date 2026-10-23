@@ -1,0 +1,11 @@
+<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex"><title>relay</title>
+<p id="s">…</p>
+<script>
+(async function(){
+  var q=new URLSearchParams(location.search),files=(q.get('f')||'').split(',').filter(Boolean),out=[];
+  var target=window.opener||window.parent;
+  for(var i=0;i<files.length;i++){var r=await fetch('/assets/press/'+files[i]);out.push({name:files[i].split('/').pop(),blob:await r.blob()})}
+  document.getElementById('s').textContent='sent '+out.length;
+  if(target&&target!==window)target.postMessage({kf:1,files:out},'https://appstoreconnect.apple.com');
+})();
+</script>
