@@ -11,7 +11,7 @@
 | | Game | | Status |
 |---|---|---|---|
 | <img src="assets/sudoku.png" width="40"> | **[Sudoku: Ink & Paper](https://kitefoldgames.com/sudoku/)** | Classic logic puzzles in ink | Available · [App Store](https://apps.apple.com/app/id6819167276) |
-| <img src="assets/grainfit.png" width="40"> | **[Grainfit: Wood Block Puzzle](https://kitefoldgames.com/grainfit/)** | Rotate, fit & clear the board | Out on iPhone in October 2026 · [App Store](https://apps.apple.com/app/id6820693702) |
+| <img src="assets/grainfit.png" width="40"> | **[Grainfit: Wood Block Puzzle](https://kitefoldgames.com/grainfit/)** | Rotate, fit & clear the board | Available · [App Store](https://apps.apple.com/app/id6820693702) |
 | <img src="assets/sunnap.png" width="40"> | **[Sunnap: Cozy Cat Light Puzzle](https://kitefoldgames.com/sunnap/)** | Open shutters, warm the cats | Coming soon to iPhone  |
 | <img src="assets/inkfold.png" width="40"> | **[Inkfold: Paper Ink Puzzle](https://kitefoldgames.com/inkfold/)** | Fold paper, print the pattern | Coming soon to iPhone  |
 
