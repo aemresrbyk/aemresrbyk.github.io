@@ -4,7 +4,7 @@
 <p align="center"><b>We make small puzzle games.</b><br>No timers, no rush, and they work offline.</p>
 <p align="center"><a href="https://kitefoldgames.com"><b>kitefoldgames.com</b></a> · <a href="https://kitefoldgames.com/support.html">Support</a> · <a href="https://kitefoldgames.com/privacy.html">Privacy</a></p>
 
-> **Latest update (2.6, 2026-10-22):** Sudoku: Ink & Paper is out on the App Store.
+> **Latest update (2.9, 2026-11-02):** Sunnap's page shows the new corner rooms and sunflowers in all 14 languages.
 
 ## Our games
 
@@ -15,7 +15,7 @@
 | <img src="assets/sunnap.png" width="40"> | **[Sunnap: Cozy Cat Light Puzzle](https://kitefoldgames.com/sunnap/)** | Open shutters, warm the cats | Available · [App Store](https://apps.apple.com/app/id6826414325) |
 | <img src="assets/inkfold.png" width="40"> | **[Inkfold: Paper Ink Puzzle](https://kitefoldgames.com/inkfold/)** | Fold paper, print the pattern | Available · [App Store](https://apps.apple.com/app/id6826414614) |
 
-Stores: App Store (iPhone); coming soon to Google Play, Galaxy Store, Huawei AppGallery and Xiaomi GetApps. New games are added on their release day.
+Stores: App Store (iPhone, iPad and Mac); coming soon to Google Play, Galaxy Store, Huawei AppGallery and Xiaomi GetApps. New games are added on their release day.
 
 ## In your language
 
@@ -36,6 +36,15 @@ This repository is the studio website, served by GitHub Pages at [kitefoldgames.
 - `app-ads.txt` at the root authorises the AdMob account used in the games
 
 ## Changelog
+
+### 2.9 · 2026-11-02
+- Sunnap's page shows the new corner rooms and sunflowers in all 14 languages
+
+### 2.8 · 2026-10-28
+- Sunnap: Cozy Cat Light Puzzle and Inkfold: Paper Ink Puzzle are out on the App Store
+
+### 2.7 · 2026-10-24
+- Grainfit: Wood Block Puzzle is out on the App Store
 
 ### 2.6 · 2026-10-22
 - Sudoku: Ink & Paper is out on the App Store
