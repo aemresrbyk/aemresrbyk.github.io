@@ -4,7 +4,7 @@
 <p align="center"><b>We make small puzzle games.</b><br>No timers, no rush, and they work offline.</p>
 <p align="center"><a href="https://kitefoldgames.com"><b>kitefoldgames.com</b></a> · <a href="https://kitefoldgames.com/support.html">Support</a> · <a href="https://kitefoldgames.com/privacy.html">Privacy</a></p>
 
-> **Latest update (2.9, 2026-11-02):** Sunnap's page shows the new corner rooms and sunflowers in all 14 languages.
+> **Latest update (3.0, 2026-11-03):** Sunnap and Inkfold pages now have gameplay videos, like Sudoku and Grainfit.
 
 ## Our games
 
@@ -36,6 +36,9 @@ This repository is the studio website, served by GitHub Pages at [kitefoldgames.
 - `app-ads.txt` at the root authorises the AdMob account used in the games
 
 ## Changelog
+
+### 3.0 · 2026-11-03
+- Sunnap and Inkfold pages now have gameplay videos, like Sudoku and Grainfit
 
 ### 2.9 · 2026-11-02
 - Sunnap's page shows the new corner rooms and sunflowers in all 14 languages
