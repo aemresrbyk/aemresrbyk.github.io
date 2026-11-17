@@ -11,9 +11,9 @@
 | | Game | | Status |
 |---|---|---|---|
 | <img src="assets/sudoku.png" width="40"> | **[Sudoku: Ink & Paper](https://kitefoldgames.com/sudoku/)** | Classic logic puzzles in ink | Available · [App Store](https://apps.apple.com/app/id6819167276) |
-| <img src="assets/grainfit.png" width="40"> | **[Grainfit: Wood Block Puzzle](https://kitefoldgames.com/grainfit/)** | Rotate, fit & clear the board | Available · [App Store](https://apps.apple.com/app/id6820693702) |
-| <img src="assets/sunnap.png" width="40"> | **[Sunnap: Cozy Cat Light Puzzle](https://kitefoldgames.com/sunnap/)** | Open shutters, warm the cats | Available · [App Store](https://apps.apple.com/app/id6826414325) |
-| <img src="assets/inkfold.png" width="40"> | **[Inkfold: Paper Ink Puzzle](https://kitefoldgames.com/inkfold/)** | Fold paper, print the pattern | Available · [App Store](https://apps.apple.com/app/id6826414614) |
+| <img src="assets/grainfit.png" width="40"> | **[Grainfit: Wood Block Puzzle](https://kitefoldgames.com/grainfit/)** | Relaxing brain teaser offline | Available · [App Store](https://apps.apple.com/app/id6820693702) |
+| <img src="assets/sunnap.png" width="40"> | **[Sunnap: Cozy Cat Light Puzzle](https://kitefoldgames.com/sunnap/)** | Relaxing logic brain teaser | Available · [App Store](https://apps.apple.com/app/id6826414325) |
+| <img src="assets/inkfold.png" width="40"> | **[Inkfold: Paper Ink Puzzle](https://kitefoldgames.com/inkfold/)** | Symmetry art & brain teaser | Available · [App Store](https://apps.apple.com/app/id6826414614) |
 
 Stores: App Store (iPhone, iPad and Mac); coming soon to Google Play, Galaxy Store, Huawei AppGallery and Xiaomi GetApps. New games are added on their release day.
 
